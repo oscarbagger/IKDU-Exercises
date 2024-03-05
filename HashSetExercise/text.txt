@@ -1,0 +1,12 @@
+Section 6 performance issues:
+
+Add:
+performs better with Lists because it doesnt need to check for duplicates before adding.
+
+Contain:
+performs better with Hashsets because there are no duplicate elements.
+It is also faster to find a specific element because it doesnt need to loop through every single element.
+
+Remove:
+performs better with Hashsets. Similar to Contain it can look up a specific element without having to loop through an entire list.
+
